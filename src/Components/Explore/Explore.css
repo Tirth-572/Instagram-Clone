@@ -1,0 +1,237 @@
+.explorePage {
+    width: 100%;
+    padding: 8px 0;
+    overflow-y: auto;
+}
+
+/* ── Grid ── */
+.exploreGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+}
+
+.exploreItem {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.exploreImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: filter 0.2s ease;
+}
+
+.videoIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    pointer-events: none;
+}
+
+.exploreOverlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.exploreItem:hover .exploreOverlay { opacity: 1; }
+.exploreItem:hover .exploreImg     { filter: brightness(0.75); }
+
+.overlayCount {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* ── Modal Backdrop ── */
+.modalBackdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalContainer {
+    display: flex;
+    width: 900px;
+    max-width: 95vw;
+    height: 600px;
+    max-height: 90vh;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* ── Modal Left (Image) ── */
+.modalLeft {
+    flex: 1;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.modalImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ── Modal Right (Comments) ── */
+.modalRight {
+    width: 340px;
+    min-width: 340px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #dbdbdb;
+}
+
+.modalHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+}
+
+.modalAvatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.modalUsername {
+    font-size: 14px;
+    font-weight: 600;
+    flex: 1;
+}
+
+.modalFollow {
+    border: none;
+    background: none;
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.modalDivider {
+    height: 1px;
+    background: #dbdbdb;
+}
+
+/* Comments scroll area */
+.modalComments {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.modalComments::-webkit-scrollbar { width: 4px; }
+.modalComments::-webkit-scrollbar-thumb { background: #dbdbdb; border-radius: 4px; }
+
+.modalCaptionRow {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.commentAvatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.commentUser {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.commentText {
+    font-size: 14px;
+    color: #262626;
+}
+
+/* Actions row */
+.modalActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px 4px;
+}
+
+.modalActionsLeft {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.modalLikes {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 16px 10px;
+}
+
+/* Add comment */
+.modalAddComment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+}
+
+.modalCommentInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #262626;
+}
+
+.modalCommentInput::placeholder { color: #8e8e8e; }
+
+.modalPostBtn {
+    border: none;
+    background: none;
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.modalPostBtn:disabled { opacity: 0.4; cursor: default; }
+
+/* Close button */
+.modalClose {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}

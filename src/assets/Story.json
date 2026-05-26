@@ -1,0 +1,84 @@
+{
+    "Story" : [
+        {
+            "Name" : "ShahrukhKhan",
+            "img" :  "https://ca-times.brightspotcdn.com/dims4/default/76311f0/2147483647/strip/true/crop/4121x2747+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F94%2F82%2F30aea31e4b189678e4b7d3ff0e34%2Fet-shah-rukh-khan-gettyimages-060.JPG"
+        },
+        {
+            "Name": "JhanviKapoor",
+            "img": "https://newsmeter.in/h-upload/2021/11/10/308083-jhanvi-kapoor.webp"  
+        },
+        {
+            "Name": "SaraAliKhan",
+            "img": "https://newsmeter.in/h-upload/2021/11/10/308075-sara-ali-khan.webp"
+        },
+        {
+            "Name": "AnanyaPandey",
+            "img": "https://newsmeter.in/h-upload/2021/11/10/308078-ananya-pandey.webp"
+        },
+        {
+            "Name" : "DishaPatani",
+            "img" : "https://newsmeter.in/h-upload/2021/11/10/308080-disha-patani.webp"
+        },
+        {
+            "Name": "AbhishekSharma",
+            "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRz7uG_NdR0P6UkewL8zuVLWLRSGtbEnWPIEaiHegCHjWOPdfNw-NNWIBHcHDvlcP2D3E3Czd-gJUATb7I"
+        },
+        {
+            "Name" : "ArshdeepSingh",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0QxMkKML1eJo0n-ReZcMcIVYh3UJZIi4BSvsQcwYx14n8RNbFuQy1VAHEjx2Npzqhh80DpmE8wasq3zqzjSF0cJvCAfuR_8lgnLodVcg32wrjKg&s=10&ec=121633959"
+        },
+        {
+            "Name": "JaspritBumrah",
+            "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQRYk3dPMhKestqLI_EUXNctuDK5krX_QnWai6iDVW7lpRkln90FXQ1ur9Zw4kXwCzihM7_dSlvVWOXmBh6-mPM8vRs-dIVrzEPv7eeR6OOgxbvHoyYRhk1W_ol7fx2TzhmMb30AaA6OsuvjdQg2Cwr&s=19&ec=121633959"
+        },
+        {
+            "Name": "AkashDeep",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ_3AX3PSOdxnxE4zy2Sb7k7z0vGnzpjClDEGn9foYcJ2XT3_aqJEoW37UyUYzzHxD9mKfxHjoUgEqpRn-Rf3qsvXYq9iH1_RDoPphaBX4l2BZsMA&s=10&ec=121633959"
+        },
+        {
+            "Name": "AxarPatel",
+            "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTXHYNw3YuHVVkXN8JvXE0yS1BuWVjLv77wv-t8QlYczxzeEdp3mSCuM80BE7hXo8PEKWglmlhCvy91r0U"
+        },
+        {
+            "Name": "ViratKohli",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN--RqtbgyLHAuPu4-5gSFuQZQIb6p6_he-61T2WIBzf_zJlPTyIVZRQuZtHVqHwxuRnXfUU6yz8UK45Q-34Xb2Y-5Y3lBWsg5yrn_YbqXpgu1CJ8&s=10&ec=121633959"
+        },
+        {
+            "Name": "NarendraModi",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/5/5f/The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg"
+        },
+        {
+            "Name": "AamirKhan",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyS_MG3pxoP-Nvz6Q5dTxGp83dxRkJWQPkth4iEBU_bjo89b-PmgumeodePkVCib-SaByq0lsNAHSWXHJ-3y7FUoQC3o98t-I5y7riy3YkkTKJOQ&s=10&ec=121633959"
+        },
+        {
+            "Name": "AkshayKumar",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVxYtoU9-1JIIaT0sj8yk3-9i_vbgK7ndn_ajpdjedGs7C0TOoIBgs6nC69M41q8Gs-1lvRpSdb3dSQMzFq9Ff1zSjH2kPonIQamxhxBhpd9hog&s=10&ec=121633959"
+        },
+        {
+            "Name" : "AjayDevgn",
+            "img" : "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR_Gs5uB3dt9UMZcE0tgZ5Y8P9NVqkmRK0I0PMaHAAzo3YeotnBuFNNTYarjEyIhiFIDGfSDsTJzGdFf0q44DhkfzK7bg0sa5YOLSeEEPuSjiqwANprvxpB62L4RB0BEmaVH6XjqKSNL4EOSAVG&s=19&ec=121633959"
+        },
+        {
+            "Name": "AmitabhBachchan",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDKvLKLxAGvz_9FaBXNOE_oFGGmWIEABvQ0-00FYBMwOtgSXM6VPSJ31enMNR3TJKOWtQ5mcoUJsYBpBw-1ewC9A5fOZKrD9d-P04UE1FQsZzwoA&s=10&ec=121633959"
+        },
+        {
+            "Name": "AbhayDeol",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUFW994cqCzU3zpveJRPbQnyatzIZBjAPE7Tm7BTrOUsKGqrbhX7JnHjUkTKPO6pRvXW9tvitmsxJ-g4bkjBONZqudY-YxPAroWrBL3W6RKGflMkY&s=10&ec=121633959"
+        },
+        {
+            "Name": "RashmikaMandanna",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTY25WdNlDiwf5lOmwqZIPqKexQn777vLAthL_PxJFn1XrQs31KAIodtkpdjLuFxhSlQp_C3jKdc_kd-qt831uL78zgXWJ2K4vqPaG-ArPwxMnQg&s=10&ec=121633959"
+        },
+        {
+            "Name": "SunielShetty",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmb8kcnP5VbM51bu3Vtybqz0dOlcQHFy-7-X5059U_CTReAZ_lQJwwVTp6jCYsMY8a3ruqVN5oMhuNKFG78JCkt7wGMk9qiNeLM8AvLmu-S2cEPQ&s=10&ec=121633959"
+        },
+        {
+            "Name": "AnushkaShetty",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDkDAIlSXHJcWBCZVVfhRkQ6YQkhsLATYd5Q&s"
+        }
+    ]
+}

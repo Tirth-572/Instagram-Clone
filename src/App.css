@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+.App {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #fafafa;
+    color: #000000;
+    min-height: 100vh;
+}
+
+.leftSideHome {
+    width: 244px;
+    min-width: 244px;
+    padding: 0;
+}
+
+.middleSideHome {
+    flex: 0.5;
+    flex-direction: column;
+    border-left: 1px solid #dbdbdb;
+}
+
+.rightSideHome {
+    flex: 0.345;
+}
+
+.MiddleTopLogo {
+    display: none;
+}
+
+@media screen and (min-width:920px) and (max-width:1140px) {
+    .rightSideHome {
+        display: none;
+    }
+
+    .leftSideHome {
+        flex: 0.2;
+    }
+
+    .middleSideHome {
+        flex: 0.8;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:920px) {
+    .rightSideHome {
+        display: none;
+    }
+
+    .leftSideHome {
+        display: none;
+    }
+
+    .middleSideHome {
+        flex: 1;
+    }
+
+    .MiddleTopLogo {
+        width: 100%;
+        display: inline;
+        padding-bottom: 15px;
+        padding-top: 0xp;
+    }
+
+    .instalogoImg {
+        width: 130px;
+    }
+}
